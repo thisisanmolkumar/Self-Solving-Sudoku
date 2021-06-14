@@ -1,2 +1,11 @@
 # Sudoku
-Sudoku game
+- Algo
+  - Getting solution of the given sudoku through backtracking
+- GUI
+  - Using PyGame to make the window
+  - Click on the box to enter numbers
+  - Press 'e' to erase
+  - Press 'u' to undo
+  - Press 's' to solve
+- Generator
+  - Randomly gets a sudoku in string from the csv
