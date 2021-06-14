@@ -55,7 +55,6 @@ def solve(board, show=False):
         return True
         
 
-
 def checkEmpty(board):
     for i in range(len(board)):
         for j in range(len(board)):
@@ -83,6 +82,7 @@ def check(board, pos, num):
                 return False
 
     return True
+
 
 if __name__ == '__main__':
     start = time.time()
