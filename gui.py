@@ -122,7 +122,7 @@ def play():
                         sol = True
                         board = [x[:] for x in ogboard]
                     if event.key == pg.K_p:
-                        pencil = not pencil
+                        pencil = not pencil  # Add pencil functioning
                     if event.key == pg.K_u:
                         if len(last) > 0:
                             board[last[-1][0]][last[-1][1]] = last[-1][2]
