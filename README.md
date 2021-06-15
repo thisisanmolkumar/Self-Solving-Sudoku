@@ -7,5 +7,6 @@
   - Press 'e' to erase
   - Press 'u' to undo
   - Press 's' to solve
+  - Press 'p' for pencil (_not added yet_)
 - Generator
   - Randomly gets a sudoku in string from the csv
