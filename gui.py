@@ -148,8 +148,6 @@ def play():
             click(screen, pos)
 
         if check(board):
-            #print('Solved!')
-            
             screen.fill(BLACK)
             grid(screen)
             show(screen, font, board, ogboard)
